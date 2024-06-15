@@ -30,3 +30,9 @@ let text = "Hello world";
 text.includes("world");
 
 // startsWith() and endsWith() is an ES6 feature.
+
+// string template, string interpolation
+
+let firstName = "John";
+let lastName = "Doe";
+let text = `Welcome ${firstName}, ${lastName}!`;
