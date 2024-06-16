@@ -3,7 +3,8 @@
 // use string search/replace method with this pattern
 
 
-// [abc]	Find any of the characters between the brackets	[0-9]	Find any of the digits between the brackets
+// [abc]	Find any of the characters between the brackets.
+// [0-9] Find any of the digits between the brackets
 let text = "this there";
 let result = text.match(/[th]/g);
 console.log(result); / print the occurrence
@@ -13,3 +14,7 @@ console.log(result); / print the occurrence
 let text = "123mohit"; 
 let result = text.match(/\d/g);
 console.log(result); // print the digit
+
+// test method for boolean return
+
+/e/.test("hi, how are you");
