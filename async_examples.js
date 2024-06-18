@@ -1,5 +1,6 @@
 // promise - return the results (error or success), link producer and consumer code
 // use for callbacks in async fashion
+// pending, fulfilled, rejected are three states
 let promise = new Promise(function(resolve,reject){
  // produce code
   resolve("OK");
